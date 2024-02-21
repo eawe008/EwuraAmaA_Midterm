@@ -56,7 +56,7 @@ class Car {
 
     @Override
     public String toString() {
-        return "My " + name + " has/have a most luxurious car in my family and the license plate is " + getLicensePlate();
+        return "My " + name + " has/have a most luxurious car in my family and license plate is " + getLicensePlate();
     }
 }
 class Sedan extends Car{
@@ -126,7 +126,7 @@ class Truck extends Car {
 
     @Override
     public String toString(){
-        return "This Truck belongs to " + super.getName() + " and it is " + super.getSize() +
+        return "This Truck belongs to " + super.getName() + " and it is" + super.getSize() +
                 " size" +
                 "\nand the cargo capacity is " + getCargoCapacity() + "kg and license plate is " + super.getLicensePlate();
     }
